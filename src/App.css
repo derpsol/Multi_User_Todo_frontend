@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #3f937b;
+}
+
+.checkbox {
+  margin-left: -25px;
+}
+.caption {
+  width: 300px;
+}
+.addText { 
+  width: 350px;
+}
+button {
+  background-color: #61b9a0 !important;
+  color: white !important;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+  border-color: #61b9a0 !important;
+}
+.input-todo:focus,
+.input-todo:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #61b9a0;
+}
+
+@media (max-width: 375px) {
+  .checkbox {
+    margin-left: -35px;
+  }
+  .caption {
+    width: 280px;
+  }
+
+  .addText {
+    width: 330px;
+  }
+}
+
+@media (max-width: 320px) {
+  .caption {
+    width: 180px;
+  }
+
+  .addText {
+    width: 230px;
+  }
+}
+
+todoTitle {
+  width: "89%";
+}
+
